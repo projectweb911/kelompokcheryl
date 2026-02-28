@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Japan-Guide</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            top: 0;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 30px;
+            display: block;
+            transition: 0.3s;
+        }
+
+        li a:hover {
+            background-color: #58535c;
+            color: #00FEFC;
+        }
+
+        .space {
+            flex: 1;
+        }
+
+        .c {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 80px;
+        }
+
+        .tokyo {
+            width: 300px;
+            height: 400px;
+            background-image: url("ty.jpg"); 
+            background-size: cover;            
+            background-position: center;        
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        .yokohama {
+            width: 300px;
+            height: 400px;
+            background-image: url("y.jpg"); 
+            background-size: cover;            
+            background-position: center;        
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        .taito {
+            width: 300px;
+            height: 400px;
+            background-image: url("ti.jpg"); 
+            background-size: cover;            
+            background-position: center;        
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            z-index: 1;
+        }
+
+
+        .tokyo h2 {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            margin: 0;
+            z-index: 2;
+        }
+        .yokohama h2 {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            margin: 0;
+            z-index: 2;
+        }
+        .taito h2 {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            margin: 0;
+            z-index: 2;
+        }
+
+        .info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: 0.4s;
+        }
+
+        .tokyo:hover .info {
+            height: 100%;
+        }
+        .yokohama:hover .info {
+            height: 100%;
+        }
+        .taito:hover .info {
+            height: 100%;
+        }
+
+        
+        
+
+       
+        
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="Japan.html">Japan</a></li>
+        <div class="space"></div>
+        <li><a href="">Destination</a></li>
+        <li><a href="interest.html">Interest</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="about us.html">About Us</a></li>
+    </ul>
+
+
+    <p>
+        <br>
+        <br>
+        <br>
+    </p>
+
+    <div class="c">
+
+        <div class="tokyo">
+            <h2>Tokyo</h2>
+            <div class="info">
+                Tokyo is the capital of Japan, known for modern city life, shopping, technology, temples, and food, and it is one of the most visited cities in the world. Akihabara, a famous area in Tokyo also called Electric Town, is popular for anime, manga, gaming, and electronics; the area is free to enter and open all day, while most shops open 10:00–11:00 AM to 8:00–9:00 PM, arcades run until late night, and maid cafés open around 11:00 AM with entry fees of ¥500–¥1,000 and games costing ¥100–¥300. Facilities in Akihabara include train and metro access, free Wi-Fi in big stores, restaurants, cafés, hotels, and convenience stores
+            </div>
+        </div>
+    
+        <div class="yokohama">
+            <h2>Yokohama</h2>
+            <div class="info">
+                Yokohama is a major port city near Tokyo, known for its seaside views, modern skyline, and international culture. Popular areas like Minato Mirai and Yokohama Chinatown are free to enter and open to walk around all day, with most shops and attractions operating from 10:00 AM to 8:00–9:00 PM; places such as Cosmo World amusement park have free entry with rides costing about ¥300–¥900, while Landmark Tower Sky Garden costs around ¥1,000. Facilities in Yokohama include easy train access, public restrooms, ATMs, free Wi-Fi in malls, restaurants, cafés, hotels, elevators, parks, and waterfront walking areas
+            </div>
+        </div>
+    
+        <div class="taito">
+            <h2>Taito</h2>
+            <div class="info">
+                Taitō is a historic area in Tokyo, famous for traditional culture, temples, and old-town atmosphere. The main attraction, Sensō-ji Temple in Asakusa, is Tokyo’s oldest temple and is free to enter, open daily from 6:00 AM to 5:00 PM (from **6:30 AM in winter), while the nearby Nakamise Street shops usually open 10:00 AM to 6:00 PM selling snacks and souvenirs. There is no ticket price for the temple, only optional donations, and facilities in the area include Asakusa Station access, public restrooms, tourist information center,restaurants, souvenir shops, hotels, elevators, and riverside walking paths
+            </div>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
